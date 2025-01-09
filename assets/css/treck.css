@@ -2101,8 +2101,8 @@ ul {
 .main-menu-two .main-menu__list > li:hover > a,
 .stricky-header.main-menu-two .main-menu__list > li.current > a,
 .stricky-header.main-menu-two .main-menu__list > li:hover > a {
-  color: var(--treck-white);
-  text-shadow: 0.05px 0 0 rgb(255 255 255 / 80%);
+  color: var(--treck-base);
+  /* text-shadow: 0.05px 0 0 rgb(255 255 255 / 80%); */
 }
 
 /*--------------------------------------------------------------
@@ -11689,7 +11689,7 @@ ul {
   left: 30px;
   bottom: 0;
   background-color: var(--treck-base);
-  padding: 9px 15px 5px;
+  padding: 14px 15px 5px;
   z-index: 2;
 }
 
@@ -11697,11 +11697,11 @@ ul {
   content: "";
   position: absolute;
   bottom: 0;
-  left: -30px;
+  left: -29px;
   border-top: 25px solid transparent;
-  border-bottom: 25px solid #d1062f;
+  border-bottom: 25px solid #68bb3b;
   border-left: 15px solid transparent;
-  border-right: 15px solid #d1062f;
+  border-right: 15px solid #68bb3b;
 }
 
 .blog-sidebar__date p {
